@@ -1,0 +1,96 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+  
+  .card-white {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  .fa-brands fa-linkedin{
+    border-radius: 20%;
+    width: 20%;
+  }
+  .fa-brands fa-github{
+    border-radius: 20%;
+    width: 20%;
+  }
+  .img-circle {
+    border-radius: 50%;
+    width: 90%;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn-blue {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-blue:hover {
+    background-color: #2980b9;
+  }
+  
+  .list-inline {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0;
+  }
+  
+  .list-inline > li {
+    display: inline;
+    padding: 0 15px;
+  }
+  
+  .list-inline > li a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .list-inline > li a:hover {
+    text-decoration: underline;
+  }
+  .social-icon {
+    font-size: 28px;
+    color: #333;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #0073b1; 
+  }
+  
+  .social-icon:hover .fa-discord{
+    color: #0a66c2;
+    width: 30%;
+  }
+  
+  .social-icon:hover .fa-github {
+    color: #0a66c2;
+    width: 100%;
+  }
+  
+  .social-icon:hover .fa-square-instagram{
+    color: #1da1f2;
+  }
+  
